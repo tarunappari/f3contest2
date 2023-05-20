@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: black;
+}
+.white{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+.uppercontainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid black;
+}
+.black{
+    padding: 30px 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.inputcontainer input{
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+.inputcontainer button{
+    padding: 8px 20px;
+    align-self: flex-start;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.result{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid gray;
+    margin-top:20px ;
+}
+.lonspan{
+    display: flex;
+    gap: 10rem;
+}
+.resultcontainer{
+    display: none;
+}
+.error{
+    display: none;
+    color: red;
+}
